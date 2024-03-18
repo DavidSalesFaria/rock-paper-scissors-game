@@ -95,8 +95,8 @@ function playGame(playerMove) {
   // Show Player choice and Computer choice
   document.body.querySelector('.js-moves')
     .innerHTML = `You
-<img class="move-icon" src="imgs/rock-paper-scissors/${playerMove}-emoji.png" alt="">
-<img class="move-icon" src="imgs/rock-paper-scissors/${computerMove}-emoji.png" alt="">
+<img class="move-icon" src="imgs/${playerMove}-emoji.png" alt="">
+<img class="move-icon" src="imgs/${computerMove}-emoji.png" alt="">
 Computer`
 
   // Update the score view
